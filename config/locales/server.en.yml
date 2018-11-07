@@ -1047,16 +1047,16 @@ en:
     sessions:
       panel: Login
       new:
-        title: Login my account
-        intro: Login Peatio now for you to exchange.
+        title: Welcome Back to Remidax
+        intro: Login to your account and start trading.
       failure:
-        title: Login my account
-        intro: Login Peatio now for you to exchange.
+        title: Welcome Back to Remidax
+        intro: Login to your account and start trading.
     identities:
       panel: Create Account
       new:
         title: Create My Account
-        intro: This will be your only ID on Peatio which is necessary for your exchange
+        intro: This will be your only ID on Remidax which is necessary for your exchange
           , deposit and withdrawal . please fill it out carefully.
       edit:
         panel: My Account
