@@ -30,6 +30,7 @@ body,
 body {
   min-width: $min-width !important;
   min-height: $min-height !important;
+  background-color: #071623;
 
   // fixed icon spin
   -webkit-font-smoothing: antialiased !important;
@@ -204,11 +205,13 @@ header {
 
 .navbar-static-top {
   min-width: $min-width;
+  background-color: #080621;
 }
 
 #wrap {
   box-sizing: border-box;
   margin-top: 0px - $navbar-height;
+  background-color: #071623;
 }
 
 .container-fluid {
@@ -310,6 +313,7 @@ header {
 .panel {
   position: absolute;
   margin-bottom: 0px;
+  background-color: #071623;
 
   &.panel-wide {
     .panel-body { padding: 8px; }
@@ -463,15 +467,17 @@ header {
 
 /* layout position
 ----------------------------------------------- */
-#ask_entry, #bid_entry { width: $entry-width; height: $entry-height; }
+#ask_entry, #bid_entry { width: $entry-width; height: $entry-height; background-color: #071623;}
 .entry-right { bottom: $gutter; right: $gutter + $entry-width + $gutter; }
 .entry-left { bottom: $gutter; right: $gutter; }
 
 #ticker {
   width: $ticker-width; height: $ticker-height;
   bottom: $gutter_4x + $entry-height + $my-orders-height + $depths-height; right: $gutter;
+  background-color: #071623;
 
   .ask, .last, .bid {
+    background-color: #071623;
     text-align: center;
     font-family: $font-family-monospace;
     .hint { cursor: default; color: #777; }
@@ -481,6 +487,7 @@ header {
     padding-top: 5px;
     font-size: 34px;
     line-height: 34px;
+    background-color: #071623;
   }
 }
 
@@ -488,6 +495,7 @@ header {
   width: $order-book-width; height: $order-book-height;
   min-height: $order-book-height;
   top: $gutter; right: $gutter;
+  background-color: rgb(7, 22, 35);
 
   .panel-body-content {
     min-height: $order-book-height - $panel_table_header_high;
@@ -496,6 +504,7 @@ header {
   table.asks, table.bids {
     .new {
       background-color: #333;
+      background-color: #071623;
       div { display: none; }
     }
 
@@ -511,6 +520,7 @@ header {
   min-width: $candlestick-width; width: $candlestick-width;
   min-height: $candlestick-height; height: $candlestick-height;
   top: $gutter; left: $market-list-width + $gutter-2x;
+  background-color: #071623;
 }
 
 .switch {
@@ -532,7 +542,7 @@ header {
 
 #depths_wrapper {
   width: $order-book-width; height: $depths-height;
-  bottom: $gutter-3x + $my-orders-height + $entry-height; right: $gutter;
+  bottom: $gutter-3x + $my-orders-height + $entry-height; right: $gutter; background-color: #071623;
 
   .panel-body {
     padding: 0;
@@ -561,11 +571,13 @@ header {
   height: $market-trades-height;
   min-height: $market-trades-height;
   z-index: 999;
-
+  background-color: #071623;
+  
   .panel {
     width: $market-trades-width;
     height: $market-trades-height;
     min-height: $market-trades-height;
+    background-color: #071623;
   }
   .panel-body-content {
     min-height: $market-trades-height - $panel_table_header_high;
@@ -593,6 +605,7 @@ header {
     height: 100px;
     top: $gutter; left: $market-list-width + $gutter;
     z-index: 998;
+    background-color: #0B243B;
   }
 }
 
@@ -601,6 +614,7 @@ header {
   top: $gutter; left: $gutter;
   width: $market-list-width; height: $market-list-height;
   z-index: 999;
+  background-color: #0B243B;
 
   .panel-body-content {
     height: $market-list-height - $panel_table_header_high;
@@ -633,6 +647,7 @@ header {
 #my_orders {
   width: $my-orders-width; height: $my-orders-height;
   bottom: $gutter-2x + $entry-height; right: $gutter;
+  background-color: #071623;
 
   .panel-body-content {
     height: $my-orders-height - $gutter-2x;
