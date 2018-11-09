@@ -1,4 +1,4 @@
-ADMIN_EMAIL = 'algobasket@gmail.com'
+ADMIN_EMAIL = 'localremit@gmail.com'
 ADMIN_PASSWORD = 'Pass@word8'
 
 admin_identity = Identity.find_or_create_by(email: ADMIN_EMAIL)
