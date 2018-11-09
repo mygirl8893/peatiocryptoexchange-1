@@ -1441,7 +1441,7 @@ en:
       notification_content: 'Your ticket got a new reply, please follow the link below to see the detail:'
   deposit_mailer:
     accepted:
-      subject: "[Peatio] Your deposit has been credited into your account"
+      subject: "REMIDAX Your deposit has been credited into your account"
       content: Your %{currency} deposit has been credited into your account.
   member_mailer:
     notify_signin:
@@ -1483,26 +1483,26 @@ en:
       thanks_for_submit_ticket: Thank you for submit ticket to us, we will get back to you as soon as possible.
   token_mailer:
     activation:
-      subject: "[Peatio] Account Activation"
+      subject: "REMIDAX Account Activation"
       click_to_verify: 'Thank you for signing up on Peatio, please follow this link to verify your Email:'
       unable_to_click: Copy and open the link in your browser if you are unable to click and visit it.
       link_expire: The link expires in 30 minutes.
     reset_password:
-      subject: "[Peatio] Please Reset Your Password"
+      subject: "REMIDAX Please Reset Your Password"
       hi: Hi,
       follow_the_link: 'Please follow this link to reset your password within 30 minutes:'
   withdraw_mailer:
     submitted:
-      subject: "[Peatio] Your withdraw state update"
+      subject: "REMIDAX Your withdraw state update"
       content: The request of your %{currency} withdrawal has been successfully submitted, We will process it as soon as possible. Please be patient with us. Contact us if you have any questions.
     processing:
-      subject: "[Peatio] Your withdraw state update"
+      subject: "REMIDAX Your withdraw state update"
       content: The request of your %{currency} withdrawal is in process. Please be patient with us. Contact us if you have any questions.
     done:
-      subject: "[Peatio] Your withdraw state update"
+      subject: "REMIDAX Your withdraw state update"
       content: The request of your %{currency} withdrawal is complete. Please check it out. Contact us if you have any questions.
     withdraw_state:
-      subject: "[Peatio] Your withdraw state update"
+      subject: "REMIDAX Your withdraw state update"
       your_state: 'Your withdrawal state: '
 
   'true': true
