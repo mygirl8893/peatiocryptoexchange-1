@@ -1055,8 +1055,8 @@ en:
     identities:
       panel: Create Account
       new:
-        title: Create My Account
-        intro: This will be your only ID on Remidax which is necessary for your exchange
+        title: Create Account
+        intro: This will be your only ID on Remidax which is necessary for trading
           , deposit and withdrawal . please fill it out carefully.
       edit:
         panel: My Account
@@ -1072,7 +1072,7 @@ en:
         email: E-mail Address
         password: Password
       identity:
-        email: Example：xiaobai@example.com
+        email: Example：billgates@example.com
         password: Please set your login password
         password_confirmation: Confirm your password
         edit:
