@@ -469,7 +469,7 @@ en:
     satoshi:
       key: Block Chain
       title: Bitcoin Deposits
-      intro: Deposit bitcoin from your own wallet address to Peatio account
+      intro: Deposit bitcoin from your own wallet address to Remidax account
       latency: 1 confirmation
       transfer: Manual
       go: Deposit
@@ -637,7 +637,7 @@ en:
       view_open_tickets: View open tickets
     account_versions:
       index:
-        description: Every transaction and every penny of income in Peatio are well
+        description: Every transaction and every penny of income in Remidax are well
           documented and exhaustive.
     api_tokens:
       user_tokens:
@@ -701,7 +701,7 @@ en:
           this page, we present you our liabilities. We also provide you a way to
           verify that your account balance is indeed part of our liabilities.
         how-to-verify: How to verify an exchange is solvent?
-        how-to-verify-uri: https://peatio.com/documents/liability_proof
+        how-to-verify-uri: https://remidax.com/documents/liability_proof
       liability_data:
         liability-proof-generating: Proof of Liability generation in process, please
           come back after 30 minutes.
@@ -1055,8 +1055,8 @@ en:
     identities:
       panel: Create Account
       new:
-        title: Create Account
-        intro: This will be your only ID on Remidax which is necessary for trading
+        title: Create My Account
+        intro: This will be your only ID on Remidax which is necessary for your exchange
           , deposit and withdrawal . please fill it out carefully.
       edit:
         panel: My Account
@@ -1072,7 +1072,7 @@ en:
         email: E-mail Address
         password: Password
       identity:
-        email: Example：billgates@example.com
+        email: Example：xiaobai@example.com
         password: Please set your login password
         password_confirmation: Confirm your password
         edit:
@@ -1293,7 +1293,7 @@ en:
       trade: Submit and cancel orders
     authorizations:
       new:
-        title: Peatio Application Authorization
+        title: Remidax Application Authorization
         authorize_html: Authorize <strong class='text-info'>%{name}</strong> to use
           your account?
         scopes: 'This application will be able to:'
@@ -1484,7 +1484,7 @@ en:
   token_mailer:
     activation:
       subject: "REMIDAX Account Activation"
-      click_to_verify: 'Thank you for signing up on Peatio, please follow this link to verify your Email:'
+      click_to_verify: 'Thank you for signing up on Remidax, please follow this link to verify your Email:'
       unable_to_click: Copy and open the link in your browser if you are unable to click and visit it.
       link_expire: The link expires in 30 minutes.
     reset_password:
@@ -1522,9 +1522,9 @@ en:
   gon:
     ask: Ask
     bid: Bid
-    brand: Peatio Exchange
+    brand: Remidax Exchange
     notification:
-      title: Peatio Exchange
+      title: Remidax Exchange
       enabled: Notification enabled.
       new_trade: "%{kind} order#%{id} executed at %{price} %{quote_unit} for %{volume} %{base_unit}。"
   back: Back
@@ -1817,7 +1817,7 @@ en:
       edit:
         submit: Disable
         warning: 'Tip: If you have lost your Two-Factor Authentication by some reason
-          and can''t login your Peatio account, please contact our online customer
+          and can''t login your Remidax account, please contact our online customer
           service.'
       show:
         step-1: Step 1
