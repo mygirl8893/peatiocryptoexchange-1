@@ -570,6 +570,7 @@ header {
   width: $market-trades-width;
   height: $market-trades-height;
   min-height: $market-trades-height;
+  display:  none;
   z-index: 999;
   background-color: #071623;
   
